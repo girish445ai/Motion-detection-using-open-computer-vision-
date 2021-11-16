@@ -1,5 +1,6 @@
 # Motion-detection-using-open-computer-vision-
 This project is about designing a video surveillance system using open cv and various motion detection methods .
+![image](https://user-images.githubusercontent.com/63008519/142032854-e203b412-d9c9-4ccd-b2cf-d8b9e6221410.png)
 ## Introduction:
 The demands on video surveillance systems are rapidly increasing in the present day. In the past, security systems had to be monitored by a guard who was locked away in a room all day watching the monitors to make sure that nothing would happen. The other option was to come back and review the footage but damage could have happened.To avoid this we need a robust and cheap system that performs effectively for surveillance.
 <br/>
