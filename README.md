@@ -7,3 +7,16 @@ Therefore, new innovative technology revolves around affordability of a product 
 Analysis of human motion is one of the most recent and popular research topics in digital image processing. In which the movement of human is the important part of human detection and motion analysis, the aim is to detect the motions of human from the background image in a video sequence.
 ## Objective:
 This project will design and implement a security system based on Raspberry Pi microcomputer. The system should be able to detect motion (intruder), activate a camera to take frames of video after motion is sensed and then send an alert to the facility owner through electronic mail plus an image attachment. 
+### Prerequisites:
+Raspberry pi with installed Open Cv libraries and Packages and a camera module.
+### Motion Detection Algorithm :
+Motion detection, which is the fundamental step in video surveillance, aims to detect regions corresponding to moving objects. The resultant information often forms the basis for higher-level operations that require well-segmented results, such as object classification and action or activity recognition. However, motion detection suffers from problems caused by source noise, complex backgrounds, variations in scene illumination, and the shadows of static and moving objects. Various methods have been proposed to overcome these problems by retaining only the moving object of interest. These methods are classified into three major categories:
+• background subtraction
+• temporal differencing
+• optical flow
+Temporal differencing is highly adaptive to dynamic environments; however, it generally exhibits poor performance in extracting all relevant feature pixels. Therefore, techniques such as morphological operations and hole filling are applied to effectively extract the shape of a moving object.
+This includes Frame differencing and Three frame differencing.
+Background subtraction provides the most complete feature data, but is extremely sensitive to dynamic scene changes due to lighting and extraneous events. Several background modelling methods have been proposed to overcome these problems.
+This includes methods like Background estimation,Adaptive Background subtraction,
+Gaussian Mixture Model, Running Gaussian average etc.
+
